@@ -1,0 +1,50 @@
+*{}
+.to {
+    width: 400px;
+    height: 300px;
+    position: relative;
+    perspective: 700px;
+}
+
+.nho img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 400px;
+    height: 300px;
+}
+
+.nho img {
+    width: 400px;
+    height: 300px;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+    transition: 3s; 
+    position: absolute;
+    transform-origin: 0% 0%;
+}
+/*.to:hover  .nho img:nth-child(4){
+	transform:rotateX(35deg);
+};
+.to:hover .nho img:nth-child(3){
+	transform:rotateX(25deg);}
+.to:hover .nho img:nth-child(2){
+	transform:rotateX(15deg);
+}
+.to:hover .nho img:nth-child(1){
+	transform:rotateX(5deg);
+}
+*/
+.quayX .nho img:nth-child(4){
+	transform:rotateX(35deg);
+}
+.quayX .nho img:nth-child(3){
+	transform:rotateX(25deg);
+}
+.quayX .nho img:nth-child(2){
+	transform:rotateX(15deg);
+}
+.quayX .nho img:nth-child(1){
+	transform:rotateX(5deg);
+}
