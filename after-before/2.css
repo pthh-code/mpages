@@ -1,0 +1,35 @@
+*{}
+
+
+.khoi2 img {}
+.khoi2{
+	width: 400px;
+	height:300px;
+	position:relative;
+	overflow: hidden;
+}
+.khoi2:after{
+	content:"";
+	width: 700px;
+	height: 500px;
+	position:absolute;
+	top: 300px;
+	left: 0px;
+	background: black;
+	display: block;
+	transition: 0.3s;
+	transform-origin: 0 0;
+	transform: rotateZ(0deg);
+}
+.khoi2:hover:after{
+	transform:rotateZ(-25deg);
+
+}
+
+.hoverhere{
+	width:300px;
+	height:100px;
+	text-align: center;
+	font-size: 20px;
+	color: green;
+}
