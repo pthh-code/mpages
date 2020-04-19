@@ -36,3 +36,6 @@
 .khoi3:hover .khoi3:before{
 	transform:scaleX(1);
 }
+.hover{
+	font-size:20px;
+}
