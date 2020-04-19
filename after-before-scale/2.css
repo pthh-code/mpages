@@ -1,0 +1,38 @@
+*{}
+.khoi3{
+	width:400px;
+	height:300px;
+	position:relative;
+}
+
+.khoi3 img{
+	width:400px;
+}
+
+.khoi3:after, .khoi3:before{
+	content:"";
+	position:absolute;
+	width: 340px;
+	height: 260px;
+	top: 20px;
+	left: 30px;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	transition: 0.4s;
+	border:1px solid white;
+	transform:scaleX(0);
+}
+.khoi3:before{
+	border-top-color: transparent;
+	border-bottom-color: transparent;
+	border-left-color:white;
+	border-right-color:white;
+	transform:scaleY(0);
+}
+.khoi3:hover:after{
+	transform:scaleX(1);
+}
+
+.khoi3:hover .khoi3:before{
+	transform:scaleX(1);
+}
