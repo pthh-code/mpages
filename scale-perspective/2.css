@@ -1,0 +1,44 @@
+*{}
+.to{
+	width:400px;
+	height:300px;
+	margin:auto;
+	perspective: 700px;
+	padding-top: 100px;
+
+}
+.nho{
+	width:400px;
+	height:300px;
+	transition:.04s;
+	position:relative;
+	transform-style: preserve-3d;
+	transition:0.4s;
+	transform: rotateX(0deg) rotateY(0deg);
+}
+.nho img{
+	width:400px;
+	height:300px;
+	transition:0.04s;
+	position: absolute;
+	top:0px;
+	left:0px;
+	z-index: 4;
+	transform-origin: 0% 0%;
+
+}
+.to .nho img:nth-child(4) {
+	transform:translateZ(1px) ;}
+.to .nho img:nth-child(3){
+	transform:translateZ(-100px);
+	}
+.to .nho img:nth-child(2){
+	transform:translateZ(-200px);
+	}
+
+.to .nho img:nth-child(1){
+	transform:translateZ(-300px);
+}
+.to:hover .nho {
+	transform:rotateX(-35deg) 
+}
