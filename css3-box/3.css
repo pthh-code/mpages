@@ -1,0 +1,59 @@
+*{}
+.to{
+	padding-top:100px;
+	width:200px;
+	height:200px;
+	perspective:500px;
+	transition: 0.04s;
+	margin:auto;
+	
+}
+.khoi{
+	width:200px;
+	height:200px;
+	transition: 0.04s;
+	position:relative;
+	transform-style: preserve-3d;
+	transform: rotateY(-110deg);
+}
+.khoi div{
+	
+	width:200px;
+	height:200px;
+	transition: 0.04s;
+	background: green;
+	font-size:30px;
+	color:white;
+	line-height: 200px;
+	text-align: center;
+	left:0;
+	top:0;
+	position:absolute;
+
+}
+._1{
+
+	transform: translateZ(100px) ;
+
+}
+._2{
+
+	transform:rotateY(-90deg) translateZ(100px);
+
+}
+._3{
+
+	transform:rotateY(90deg) translateZ(100px);
+
+}
+._6{
+
+	transform: rotateY(180deg) translateZ(100px);
+
+}
+._4 {
+	transform:rotateX(90deg) translateZ(100px);
+}
+._5 {
+	transform:rotateX(-90deg) translateZ(100px);
+}
